@@ -241,6 +241,7 @@ for i in range(sln):
 
 arrayF = arrayB
 
+#how likely is each pair
 for i in range(n):
     for j in range(n):
         pgrid[i,j] = np.sum(arrayF[:,j] == (i+1),axis=0)
